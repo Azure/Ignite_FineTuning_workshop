@@ -38,7 +38,7 @@ Select + Create from the navigation menu.
 
 Select New workspace from the navigation menu.
 
-![](/lab/Workshop%20Instructions/Lab1_Environment_Setup/images/01-2-select-new-workspace.png)
+![](./images/01-2-select-new-workspace.png)
 
 Perform the following tasks:
 
@@ -51,7 +51,7 @@ Enter Workspace Name. It must be a unique value.
 - Select the Application insights to use (create a new one if needed).
 - Select the Container registry to use (create a new one if needed).
 
-![](/lab/Workshop%20Instructions/Lab1_Environment_Setup/images/01-03-fill-AZML.png)
+![](./images/01-03-fill-AZML.png)
 
 > [!TIP]
 > When you create or use a Storage account in Azure Machine Learning, a container named "azureml" is automatically created within the Storage account. This container is used for storing model artifacts, training outputs, and other data generated during the machine learning process. In this tutorial, you will use the "azureml" container to manage and store all the necessary files and outputs related to our machine learning workflows.
@@ -85,7 +85,7 @@ Perform the following tasks to request `Standard NCADSA100v4` Family quota:
 - Select the Virtual machine family to use. For example, select `Standard NCADSA100v4 Family Cluster Dedicated vCPUs`, which includes the `Standard_NC24ads_A100_v4 GPU.`
 - Select the Request quota from the navigation menu.
 
-![](/lab/Workshop%20Instructions/Lab1_Environment_Setup/images/01-04-request-quota.png)
+![](./images/01-04-request-quota.png)
 
 - Inside the Request quota page, enter the New cores limit you'd like to use. For example, 24.
 
@@ -111,10 +111,10 @@ In this Lab, you will:
 
 Type managed identities in the search bar at the top of the portal page and select Managed Identities from the options that appear.
 
-![](/lab/Workshop%20Instructions/Lab1_Environment_Setup/images/02-7-type-managed-identities.png)
+![](./images/02-7-type-managed-identities.png)
 
 - Select + Create.
-![](/lab/Workshop%20Instructions/Lab1_Environment_Setup/images/02-8-select-create.png)
+![](./images/02-8-select-create.png)
 
 Perform the following tasks to navigate to Add role assignment page:
 
@@ -123,7 +123,7 @@ Perform the following tasks to navigate to Add role assignment page:
 - Select the Region you'd like to use.
 - Enter the Name. It must be a unique value.
 
-![](/lab/Workshop%20Instructions/Lab1_Environment_Setup/images/02-9-fill-managed-identities-1.png)
+![](./images/02-9-fill-managed-identities-1.png)
 
 - Select Review + create.
 - Select + Create.
@@ -143,7 +143,7 @@ Inside Add role assignment page, Perform the following tasks:
 - Select your Azure Subscription.
 - Select the Resource group to use.
 - Select the Role to Contributor.
-![](/lab/Workshop%20Instructions/Lab1_Environment_Setup/images/02-0-fill-contributor-role.png)
+![](./images/02-0-fill-contributor-role.png)
 
 - Select Save.
 
@@ -151,7 +151,7 @@ Inside Add role assignment page, Perform the following tasks:
 
 - Type azure storage accounts in the search bar at the top of the portal page and select Storage accounts from the options that appear.
 
-![](/lab/Workshop%20Instructions/Lab1_Environment_Setup/images/02-1-type-storage-accounts.png)
+![](./images/02-1-type-storage-accounts.png)
 
 - Select the storage account that associated with the Azure Machine Learning workspace. For example, finetunephistorage.
 
@@ -161,13 +161,13 @@ Inside Add role assignment page, Perform the following tasks:
 Select Access Control (IAM) from the left side tab.
 - Select + Add from the navigation menu.
 - Select Add role assignment from the navigation menu.
-![](/lab/Workshop%20Instructions/Lab1_Environment_Setup/images/02-3-add-role.png)
+![](./images/02-3-add-role.png)
 
 Inside Add role assignment page, Perform the following tasks:
 
 Inside the Role page, type Storage Blob Data Reader in the search bar and select Storage Blob Data Reader from the options that appear.
 
-![](/lab/Workshop%20Instructions/Lab1_Environment_Setup/images/02-4-select-data-reader-role.png)
+![](./images/02-4-select-data-reader-role.png)
 
 - Inside the Role page, select Next.
 - Inside the Members page, select Assign access to Managed identity.
@@ -177,7 +177,7 @@ Inside the Role page, type Storage Blob Data Reader in the search bar and select
 - Inside Select managed identities page, select the Manage Identity that you created. For example, finetunephi-managedidentity.
 - Inside Select managed identities page, select Select.
 
-![](/lab/Workshop%20Instructions/Lab1_Environment_Setup/images/02-5-select-managed-identity.png)
+![](./images/02-5-select-managed-identity.png)
 
 - Select Review + assign.
 
@@ -186,7 +186,7 @@ Inside the Role page, type Storage Blob Data Reader in the search bar and select
 
 Type container registries in the search bar at the top of the portal page and select Container registries from the options that appear.
 
-![](/lab/Workshop%20Instructions/Lab1_Environment_Setup/images/02-10-type-container-registries.png)
+![](./images/02-10-type-container-registries.png)
 
 - Select the container registry that associated with the Azure Machine Learning workspace. For example, finetunephicontainerregistries
 
@@ -299,7 +299,7 @@ Create a config.py file to enter Azure information.
 - Select Open Folder.
 - Select the finetune-phi folder that you created, which is located at C:\Users\yourUserName\finetune-phi.
 
-![](/lab/Workshop%20Instructions/Lab1_Environment_Setup/images/04-1-open-project-folder.png)
+![](./images/04-1-open-project-folder.png)
 
 - In the left pane of Visual Studio Code, right-click and select New File to create a new file named download_dataset.py.
 
@@ -307,7 +307,7 @@ Create a config.py file to enter Azure information.
 
 - In the left pane of Visual Studio Code, right-click and select New File to create a new file named deploy_model.py.
 
-![](/lab/Workshop%20Instructions/Lab1_Environment_Setup/images/04-2-create-new-file.png)
+![](./images/04-2-create-new-file.png)
 
 - In the left pane of Visual Studio Code, right-click and select New Folder to create a new forder named finetuning_dir.
 
@@ -381,12 +381,12 @@ Perform the following tasks to add the Azure Subscription ID:
 
 - Type subscriptions in the search bar at the top of the portal page and select Subscriptions from the options that appear.
 
-![Type subscriptions in the search bar](/lab/Workshop%20Instructions/Lab1_Environment_Setup/images/05-3-type-subscriptions.png)
+![Type subscriptions in the search bar](./images/05-3-type-subscriptions.png)
 
 - Select the Azure Subscription you are currently using.
 Copy and paste your Subscription ID into the config.py file.
 
-![](/lab/Workshop%20Instructions/Lab1_Environment_Setup/images/05-4-find-subscriptionid.png)
+![](./images/05-4-find-subscriptionid.png)
 
 - Perform the following tasks to add the Azure Workspace Name:
 
@@ -394,14 +394,14 @@ Copy and paste your Subscription ID into the config.py file.
 
 - Copy and paste your account name into the config.py file.
 
-![](/lab/Workshop%20Instructions/Lab1_Environment_Setup/images/05-5-find-AZML-name.png)
+![](./images/05-5-find-AZML-name.png)
 
 - Perform the following tasks to add the Azure Resource Group Name:
 
 - Navigate to the Azure Machine Learning resource that you created.
 - Copy and paste your Azure Resource Group Name into the config.py file.
 
-![](/lab/Workshop%20Instructions/Lab1_Environment_Setup/images/05-6-find-AZML-resourcegroup.png)
+![](./images/05-6-find-AZML-resourcegroup.png)
 
 - Perform the following tasks to add the Azure Managed Identity name
 
