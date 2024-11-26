@@ -1,5 +1,13 @@
 
-[![Azure AI Community Discord](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.com/invite/ByRwuEEgH4?WT.mc_id=aiml-00024-leestott)
+[![GitHub contributors](https://img.shields.io/github/contributors/azure/Ignite_FineTuning_workshop.svg)](https://GitHub.com/microsoft/azure/Ignite_FineTuning_workshop/graphs/contributors/?WT.mc_id=aiml-00003-leestott)
+[![GitHub issues](https://img.shields.io/github/issues/azure/Ignite_FineTuning_workshop.svg)](https://GitHub.com/microsoft/azure/Ignite_FineTuning_workshop/issues/?WT.mc_id=aiml-00003-leestott)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/azure/Ignite_FineTuning_workshop.svg)](https://GitHub.com/azure/Ignite_FineTuning_workshop/pulls/?WT.mc_id=aiml-00003-leestotto)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com?WT.mc_id=aiml-00003-leestott)
+
+[![GitHub watchers](https://img.shields.io/github/watchers/azure/Ignite_FineTuning_workshop.svg?style=social&label=Watch)](https://GitHub.com/azure/Ignite_FineTuning_workshop/watchers/?WT.mc_id=aiml-00003-leestott)
+[![GitHub forks](https://img.shields.io/github/forks/azure/Ignite_FineTuning_workshop.svg?style=social&label=Fork)](https://GitHub.com/azure/Ignite_FineTuning_workshop/network/?WT.mc_id=aiml-00003-leestott)
+[![GitHub stars](https://img.shields.io/github/stars/azure/Ignite_FineTuning_workshop?style=social&label=Star)](https://GitHub.com/azure/Ignite_FineTuning_workshop/stargazers/?WT.mc_id=aiml-00003-leestott)
+[![Azure AI Community Discord](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.com/invite/ByRwuEEgH4?WT.mc_id=aiml-00003-leestott)
 
 # Unlocking NLP Potential: Fine-Tuning with Microsoft Olive PRE016
 
