@@ -37,13 +37,13 @@ We will focus on the specific areas
 ## Setup Local Dev Environment 
 
 ## install az cli
-winget install -e --id Microsoft.AzureCLI
+`winget install -e --id Microsoft.AzureCLI`
 
 ## install az ml extension
-az extension add -n ml
+`az extension add -n ml`
 
 ## verify az ml extension has been installed
-az extension list --output table
+`az extension list --output table`
 
 ## Install .NET 8 on Windows
 
@@ -62,14 +62,15 @@ Download VS Code: Visit the VS Code download page and download the installer for
 - Run the Installer: Open the downloaded installer and follow the prompts to install VS Code
 - Launch VS Code: Once installed, you can open VS Code from the start menu
 
-## Installing the Python Extension
+### Installing the Python Extension in VS Code
 - Open VS Code: Launch VS Code
 - Open the Extensions View: Press Ctrl+Shift+X or click on the Extensions icon in the Activity Bar on the side of the window
 - Search for Python: In the Extensions view, search for "Python" and click on the Python extension by Microsoft
 - Install the Extension: Click the "Install" button to install the Python extension
 - Select Python Interpreter: After installation, you may need to select your Python interpreter by clicking on the Python version in the bottom left corner and choosing the appropriate interpreter.
 
-## Installing the .NET Extension
+### Installing the .NET Extension in VS Code
+- Open VS Code: Launch VS Code
 - Open the Extensions View: Press Ctrl+Shift+X or click on the Extensions icon in the Activity Bar
 - Search for .NET: In the Extensions view, search for ".NET" and click on the C# Dev Kit extension by Microsoft
 - Install the Extension: Click the "Install" button to install the .NET extension.
@@ -78,8 +79,8 @@ Download VS Code: Visit the VS Code download page and download the installer for
 ## Setting Up Your Environment
 Create a Project: Open a new folder or create a new project
 
-- Initialize a .NET Project: Open a terminal in VS Code (Ctrl+ or Ctrl+Shift+M) and run the command dotnet new console to create a new .NET console project
-- Run the Project: Run the project by typing dotnet run in the terminal
+- Initialize a .NET Project: Open a terminal in VS Code (Ctrl+ or Ctrl+Shift+M) and run the command `dotnet new console` to create a new .NET console project
+- Run the Project: Run the project by typing  `dotnet run` in the terminal
 
 You should now have a working setup with VS Code, the Python extension, and the .NET extension. If you encounter any issues or need further assistance, feel free to ask!
 
