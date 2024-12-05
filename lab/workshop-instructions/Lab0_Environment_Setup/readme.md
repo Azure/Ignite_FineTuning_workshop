@@ -42,9 +42,12 @@ winget install -e --id Microsoft.AzureCLI
 ## install az ml extension
 az extension add -n ml
 
+## verify az ml extension has been installed
+az extension list --output table
+
 ## Install .NET 8 on Windows
 
-- Download .NET 8.0: Visit the official .NET download page +++https://dotnet.microsoft.com+++ and download the .NET 8.0 SDK for Windows
+- Download .NET 8.0: Visit the official .NET download page https://dotnet.microsoft.com and download the .NET 8.0 SDK for Windows
 - Run the Installer: Open the downloaded installer and follow the prompts to install the .NET 8.0 SDK
 - Restart Your Computer: After installation, restart your computer to complete the setup
 
@@ -54,7 +57,7 @@ az extension add -n ml
 
 ## Installing Visual Studio Code on Windows
 
-Download VS Code: Visit the VS Code download page and download the installer for Windows +++https://vscode.microsoft.com+++
+Download VS Code: Visit the VS Code download page and download the installer for Windows https://vscode.microsoft.com
 
 - Run the Installer: Open the downloaded installer and follow the prompts to install VS Code
 - Launch VS Code: Once installed, you can open VS Code from the start menu
@@ -84,7 +87,7 @@ You should now have a working setup with VS Code, the Python extension, and the 
 
 You start by creating an Azure AI project within an Azure AI hub:
 
-1. In a web browser, open +++https://ai.azure.com+++ and sign in using your Azure credentials.
+1. In a web browser, open https://ai.azure.com and sign in using your Azure credentials.
 1. Select the **Home** page, then select **+ New project**.
 1. In the **Create a new project** wizard,create a project with the following settings:
     - **Project name**: *A unique name for your project*
@@ -97,7 +100,7 @@ You start by creating an Azure AI project within an Azure AI hub:
     - **Connect Azure AI Services or Azure OpenAI**: (New) *Autofills with your selected hub name*
     - **Connect Azure AI Search**: Skip connecting
 
-    > \* Azure OpenAI resources are constrained at the tenant level by regional quotas. The listed regions in the location helper include default quota for the model type(s) used in this exercise. Randomly choosing a region reduces the risk of a single region reaching its quota limit. In the event of a quota limit being reached later in the exercise, there's a possibility you may need to create another resource in a different region. Learn more about model availability per region +++https://learn.microsoft.com/azure/ai-services/openai/concepts/models#gpt-35-turbo-model-availability+++
+    > \* Azure OpenAI resources are constrained at the tenant level by regional quotas. The listed regions in the location helper include default quota for the model type(s) used in this exercise. Randomly choosing a region reduces the risk of a single region reaching its quota limit. In the event of a quota limit being reached later in the exercise, there's a possibility you may need to create another resource in a different region. Learn more about model availability per region https://learn.microsoft.com/azure/ai-services/openai/concepts/models#gpt-35-turbo-model-availability
 
 1. Review your configuration and create your project.
 1. Wait for your project to be created.
