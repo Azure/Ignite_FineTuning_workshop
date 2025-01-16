@@ -63,7 +63,7 @@ Abstract: Join us for an exclusive workshop on fine-tuning pre-trained language 
 
 | Lab # | Title | Description |
 | ----- | ------ |----------- |
-| 3 | Finetuning with Azure AI Studio | Learn how to finetune with Azure AI Studio|
+| 3 | Finetuning with Azure AI Foundry | Learn how to finetune with Azure AI Foundry|
 
 **4. Deployment of a Model (45 minutes)**
 - Deployment strategies on Azure
@@ -74,7 +74,7 @@ Abstract: Join us for an exclusive workshop on fine-tuning pre-trained language 
 
 | Lab # | Title | Description |
 | ----- | ------ |----------- |
-| 4 | Deploying models to a cloud endpoint | Learn how to deploy models to a cloud endpoint for inference using Azure AI Studio. |
+| 4 | Deploying models to a cloud endpoint | Learn how to deploy models to a cloud endpoint for inference using Azure AI Foundry. |
 
 **5. Optimizing Performance (30 minutes)**
 - Monitoring and evaluating model performance
