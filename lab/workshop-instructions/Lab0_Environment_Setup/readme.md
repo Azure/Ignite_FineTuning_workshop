@@ -37,10 +37,13 @@ We will focus on the specific areas
 ## Setup Local Dev Environment 
 
 ## install az cli
-winget install -e --id Microsoft.AzureCLI
+'winget install -e --id Microsoft.AzureCLI'
 
 ## install az ml extension
-az extension add -n ml
+'az extension add -n ml'
+
+## verify az ml extension has been installed
+`az extension list --output table`
 
 ## Install .NET 8 on Windows
 
@@ -112,11 +115,11 @@ On the project Settings page you can find information about the project, such as
 
 ![Screenshot of an AI project settings page.](./images/project-settings.png)
 
-Name: The name of the project corresponds to the selected project in the left panel.
-Hub: The hub that hosts the project.
-Location: The location of the hub that hosts the project. For supported locations, see Azure AI regions.
-Subscription: The subscription that hosts the hub that hosts the project.
-Resource group: The resource group that hosts the hub that hosts the project.
-Select Manage in the Azure portal to navigate to the project resources in the Azure portal.
+- Name: The name of the project corresponds to the selected project in the left panel.
+- Hub: The hub that hosts the project.
+- Location: The location of the hub that hosts the project. For supported locations, see Azure AI regions.
+- Subscription: The subscription that hosts the hub that hosts the project.
+- Resource group: The resource group that hosts the hub that hosts the project.
+- Select Manage in the Azure portal to navigate to the project resources in the Azure portal.
 
 
